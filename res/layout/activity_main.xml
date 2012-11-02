@@ -1,0 +1,29 @@
+<SlidingDrawer 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:content="@+id/content"
+    android:handle="@+id/handle"
+    android:topOffset="25dp"
+    android:bottomOffset="25dp"
+    android:orientation="horizontal">
+    
+    <ImageView
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/hello_world"
+        android:background="#ff103423"/>
+    
+    <ImageView
+        android:id="@id/handle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:color/black"/>
+       
+    <TextView
+        android:id="@id/content"
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/hello_world"
+        android:background="#ff33b5e5"/>
+</SlidingDrawer>
